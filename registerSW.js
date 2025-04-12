@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/hand-care-routine-pwa/sw.js', { scope: '/hand-care-routine-pwa/' })})}
